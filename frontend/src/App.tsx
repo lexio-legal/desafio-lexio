@@ -1,5 +1,22 @@
+import { Route, Routes } from 'react-router-dom'
+
+import Login from 'pages/Login'
+import Dashboard from 'pages/Dashboard'
+
+import { Container } from 'components/Container'
+
 const App = () => {
-  return <h1>App</h1>
+  return (
+    <Container>
+      <Routes>
+        <Route path="/dashboard" element={<Dashboard />} />
+
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
+        <Route path="*" element={<Login />} />
+      </Routes>
+    </Container>
+  )
 }
 
 export default App

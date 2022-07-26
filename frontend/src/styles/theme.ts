@@ -1,12 +1,12 @@
 export default {
   grid: {
-    container: '112rem',
+    container: '120rem',
     gutter: '3.2rem'
   },
   border: {
     radiusX4: '0.4rem',
     radiusX8: '0.8rem',
-    radiusX16: '0.16rem'
+    radiusX16: '1.6rem'
   },
   font: {
     family:
@@ -35,6 +35,7 @@ export default {
     gray300: '#EEEEEE',
     gray400: '#F0F0F0',
     gray500: '#E2E4E9',
+    gray550: '#C4C4C4',
     gray600: '#414858',
     gray700: '#28303B',
     gray800: '#2B303B',

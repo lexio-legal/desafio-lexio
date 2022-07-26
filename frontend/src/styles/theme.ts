@@ -5,8 +5,8 @@ export default {
   },
   border: {
     radiusX4: '0.4rem',
-    radiusX8: '0.4rem',
-    radiusX16: '0.4rem'
+    radiusX8: '0.8rem',
+    radiusX16: '0.16rem'
   },
   font: {
     family:
@@ -52,5 +52,12 @@ export default {
     large: '4.0rem',
     xlarge: '4.8rem',
     xxlarge: '5.6rem'
+  },
+  layers: {
+    base: 10,
+    menu: 20,
+    overlay: 30,
+    modal: 40,
+    alwaysOnTop: 50
   }
 } as const

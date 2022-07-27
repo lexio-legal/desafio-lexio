@@ -3,6 +3,7 @@ import { CalendarNumber } from '@styled-icons/ionicons-outline'
 import { Container } from 'components/Container'
 import Contract from 'components/Contract'
 import Navbar from 'components/Navbar'
+import Search from 'components/Search'
 import * as S from './styles'
 
 const Dashboard = () => (
@@ -18,6 +19,7 @@ const Dashboard = () => (
             <p>Eventos da semana</p>
           </S.EventDetails>
         </S.Banner>
+        <Search />
         <S.Content>
           <Contract />
           <Contract />

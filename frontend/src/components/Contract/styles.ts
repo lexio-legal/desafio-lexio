@@ -10,6 +10,7 @@ export const Wrapper = styled.div`
     border-radius: ${theme.border.radiusX16};
     font-size: ${theme.font.sizes.small};
     padding: 0 1rem;
+    min-width: 980px;
   `}
 `
 

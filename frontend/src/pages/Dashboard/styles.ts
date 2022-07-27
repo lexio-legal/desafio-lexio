@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
 export const Wrapper = styled.main`
   padding: 1rem;
@@ -35,4 +36,8 @@ export const Content = styled.div`
   display: grid;
   gap: 1.4rem;
   padding: 1rem 0;
+
+  ${media.lessThan('large')`
+    overflow-x: scroll;
+  `}
 `
